@@ -27,5 +27,8 @@ Object.getOwnPropertyNames(obj).forEach(
 	if (weeks.indexOf(weekOfYear)!== -1) {
 		console.log('This week\'s queuemaster is: ' + val);
 	};
+	if (weeks.indexOf(weekOfYear+1)!== -1) {
+		console.log('Next week\'s queuemaster is: ' + val);
+	};
   }
 );
