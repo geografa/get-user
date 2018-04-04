@@ -11,7 +11,7 @@ for (var i = 0; i < count; i++) {
 	// var turns = []
 	var names = users[i];
 	for (var c = 0; c < count; c++) {
-		turns.push(count*c);
+		turns.push(count*c+i);
 	};
 	obj[names] = turns;
 	// console.log(users[i]);
