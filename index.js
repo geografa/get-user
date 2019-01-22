@@ -4,7 +4,7 @@ const weekOfYear = parseInt(moment().format("w"));
 const obj = {};
 
 // users active in the support queue 
-let users = ['Joe','Kayla','Sam','Jordy','Rafa','Josh/Madison','Mal'];
+let users = ['Joe','Kayla','Sam','Jordy','Rafa','Josh','Madison','Mal'];
 
 // take the # of users and divide by # of weeks in a year
 const count = Math.ceil(52/users.length);
